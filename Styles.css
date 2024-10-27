@@ -1,0 +1,133 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-image: url('Imagens/textura-branca.jpg');
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 5;
+    color:  rgb(105,105,105);
+    font-size: 30pt;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.left-images, .right-images {
+    display: flex;
+    margin: 10px;
+}
+
+.header-image {
+    width: 60px;
+    height: auto;
+    margin: 5px;
+}
+
+nav {
+    background-image: url('Imagens/textura-branca.jpg');
+    width: 15%;
+    height: 100%;
+    top: 150px;
+    right: 0;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+}
+
+main {
+    background-image: url('Imagens/textura-cinza.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    min-height: 100%;
+    padding: 20px;
+    top: 150px;
+    position: absolute;
+    border-top: 2px dotted rgb(255, 250, 250);
+    border-right: 2px dotted rgb(255, 250, 250);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+p {
+    color: rgb(255,250,250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+span {
+    color: rgb(255,165,0);
+}
+
+pre {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: right;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+
+
+table {
+    width: 100%; /* Ou a largura desejada */
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse; /* Remove espaçamentos entre as células */
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    border: 3px solid #ccc;
+    font-size: 14pt;
+    color: rgb(30,144,255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ccc;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 12pt;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+th img {
+    width: 300px; /* Define a largura das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da célula */
+}
